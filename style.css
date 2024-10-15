@@ -213,9 +213,7 @@ nav ul li a:hover {
     display:flex;
     flex-direction: column;
     /*border:1px solid black;*/
-    padding:2rem;
-    margin-top: 5px;
-    padding-top:100px;
+    padding-bottom:1.5rem;
     width:50vw;
     height:auto;
 }
@@ -244,7 +242,7 @@ nav ul li a:hover {
     /*border: 1px solid black;*/
     margin: 20px 0px 20px 20px;
     background: #fff;
-
+    align-items: center;
 }
 
 .statement {
@@ -386,6 +384,25 @@ nav ul li a:hover {
 .box1 h3, .box2 h3, .box3 h3{
     margin-bottom:0em;
     color:gold;
+
+}
+
+.mentorship-button {
+
+    margin-top: 20px; /* Space above the button */
+    padding: 15px 30px;
+    background-color: #007bff;
+    /*background-color: goldenrod;*/
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size:1.0em;
+}
+
+
+.mentorship-button:hover {
+    background-color: #0056b3;
 
 }
 
@@ -605,6 +622,21 @@ footer a:hover {
     justify-content: center;
     width:100vw;
     height:100vh;
+}
+
+/*MENTORSHIP Learn More SECTION --------------------------------------*/
+
+.mentorship-learn-more {
+    max-width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    padding-top:100px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
 }
 
 
