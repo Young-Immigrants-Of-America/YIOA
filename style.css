@@ -685,8 +685,6 @@ footer a:hover {
         flex-direction: column;
         /*border:1px solid black;*/
         padding:2rem;
-        margin-top: 5px;
-        padding-top:100px;
         width:70vw;
         height:auto;
     }
