@@ -171,6 +171,7 @@ nav ul li a:hover {
     border-radius: 10px;
     cursor: pointer;
     font-size:1.2em;
+    transition: background-color 0.25s ease;
 }
 
 
@@ -875,6 +876,7 @@ nav ul li a:hover {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.25s ease;
 }
 
 .contact-button:hover {
