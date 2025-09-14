@@ -216,7 +216,7 @@ nav ul li a:hover {
     /*border:1px solid black;*/
     padding:2rem;
     margin-top: 5px;
-    padding-top:100px;
+    padding-top: 32px;
     width:50vw;
     height:auto;
 }
@@ -241,6 +241,7 @@ nav ul li a:hover {
 
 .statement-container {
     display:flex;
+    align-items: center;
     width:60vw;
     height: auto;
     /*border: 1px solid black;*/
@@ -290,8 +291,8 @@ nav ul li a:hover {
     display:flex;
     flex-direction: column;
     margin-left:10px;
-    padding: 2rem;
-    padding-top:100px;
+    padding: 3rem;
+    padding-top:3rem;
     /*border: 1px solid black;*/
     /*height:60vh;*/
     width:40vw;
@@ -308,7 +309,7 @@ nav ul li a:hover {
 .founder-profile {
     display:flex;
     flex-direction:column;
-    padding: 100px 2rem 2rem 2rem;
+    padding: 3rem 3rem 3rem 3rem;
     /*border: 1px solid black;*/
     /*height:60vh;*/
     width:25vw;
@@ -319,7 +320,7 @@ nav ul li a:hover {
 .co-founder-profile {
     display:flex;
     flex-direction:column;
-    padding: 100px 2rem 2rem 2rem;
+    padding: 3rem 3rem 3rem 3rem;
     /*border: 1px solid black;*/
     /*height:60vh;*/
     width:25vw;
@@ -453,32 +454,6 @@ nav ul li a:hover {
     transform: scale(1);
     box-shadow: 0 8px 30px rgba(0,0,0,0.2);
     z-index: 5;
-}
-
-.timeline-event::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: -20px;
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 20px solid white;
-    transform: translateY(-50%);
-}
-
-.timeline-event::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    right: -20px;
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 20px solid white;
-    transform: translateY(-50%);
 }
 
 .event-date {
@@ -1131,7 +1106,7 @@ footer a:hover {
         /*border:1px solid black;*/
         padding:2rem;
         margin-top: 5px;
-        padding-top:100px;
+        padding-top:32px;
         width:70vw;
         height:auto;
     }
